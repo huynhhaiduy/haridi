@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
             <div className="footer-right">
                 <a
-                    href="tel:+84901234567"
+                    href="tel:+84345656911"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -27,7 +27,7 @@ const Footer = () => {
                     <FaPhone />
                 </a>
                 <a
-                    href="mailto:duy@example.com"
+                    href="mailto:haiduysaigon@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -35,7 +35,7 @@ const Footer = () => {
                     <FaEnvelope />
                 </a>
                 <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -43,7 +43,7 @@ const Footer = () => {
                     <FaGithub />
                 </a>
                 <a
-                    href="https://linkedin.com/in/yourusername"
+                    href="https://www.linkedin.com/in/huynhhaiduy/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -51,7 +51,7 @@ const Footer = () => {
                     <FaLinkedin />
                 </a>
                 <a
-                    href="https://facebook.com/yourusername"
+                    href="https://www.facebook.com/share/17ArjvZkSU/?mibextid=wwXIfr"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
