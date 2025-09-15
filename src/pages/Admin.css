@@ -45,6 +45,8 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow-x: auto;
+  width: 100%;
 }
 
 .admin-content h2 {
@@ -72,6 +74,7 @@
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 30px;
+  min-width: 600px;
 }
 
 .admin-content th,
@@ -79,6 +82,8 @@
   border: 1px solid #ccc;
   padding: 12px;
   text-align: left;
+  padding: 8px;
+  white-space: nowrap; /* Prevent text from wrapping */
 }
 
 .admin-content th {
@@ -149,4 +154,16 @@ margin: 0 !important;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+  .admin-content {
+    overflow-x: auto;
+  }
+
+  .admin-content table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
