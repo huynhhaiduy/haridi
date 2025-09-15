@@ -1,0 +1,79 @@
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  color: var(--highlight-color);
+  margin: 0;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* spacing between rows */
+}
+
+.modal-footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* spacing between label and input */
+}
+
+.form-row label {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.form-row input,
+.form-row textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+.modal-footer button {
+  cursor: pointer;
+}
+
+.form-row select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.preview-image {
+  margin-top: 10px;
+  max-width: 100px;
+  border-radius: 5px;
+}
+
+.cancel-photo-button {
+  padding: 6px 12px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-photo-button:hover {
+  background-color: #aaa;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}

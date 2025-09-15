@@ -1,0 +1,123 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px 20px;
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.top-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.greeting-text h1,
+.greeting-text h2 {
+  margin: 0;
+}
+
+.greeting-text h2 {
+  text-align: left;
+}
+
+.profile-photo {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.intro-section {
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.intro-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.intro-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.contact-section {
+  margin-bottom: 20px;
+}
+
+.contact-section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 2rem;
+}
+
+.social-icons a {
+  color: var(--highlight-color);
+  transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: var(--text-color);
+}
+
+.purple {
+  color: purple;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}

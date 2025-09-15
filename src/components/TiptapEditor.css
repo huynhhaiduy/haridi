@@ -1,0 +1,57 @@
+.tiptap-wrapper {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.tiptap-toolbar {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.tiptap-toolbar button {
+  padding: 6px 12px;
+  border: none;
+  background-color: var(--highlight-color);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tiptap-toolbar button:hover {
+  background-color: #8a2be2;
+}
+
+.tiptap.ProseMirror {
+  min-height: 200px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.tiptap-toolbar button.active {
+  background-color: #8a2be2;
+  font-weight: bold;
+}
+
+/* Style for code blocks */
+.tiptap-wrapper pre {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.tiptap-wrapper code {
+  background: none;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+}
