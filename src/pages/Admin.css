@@ -167,3 +167,19 @@ margin: 0 !important;
     white-space: nowrap;
   }
 }
+
+.admin-content td {
+  max-width: 200px; /* or any width you prefer */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.admin-content td:nth-child(3), /* Description */
+.admin-content td:nth-child(5), /* Tags */
+.admin-content td:nth-child(6)  /* Content */ {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
